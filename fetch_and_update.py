@@ -227,6 +227,13 @@ def main():
 
     # 4. Run your existing analysis pipeline
     run_analysis_script()
+# --- Fix missing or zero macro values ---
+    try:
+        macro_df['unemployment'] = macro_df['unemployment'].replace(0, np.nan)
+        macro_df[['cash_rate', 'unemployment']] = macro_df[['cash_rate', 'unemployment']].fillna(method='ffill')
+        logger.info("Filled missing unemployment and cash rate values using last valid entries.")
+    except Exception as e:
+        logger.warning(f"Could not apply fill logic: {e}")
 
     logger.info("===== Data update pipeline finished =====")
 
