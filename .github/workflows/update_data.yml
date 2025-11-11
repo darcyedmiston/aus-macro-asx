@@ -2,11 +2,11 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    - cron: '0 2 1 * *'        # 1st of every month, 02:00 UTC
-  workflow_dispatch:           # allow manual "Run workflow" button
+    - cron: '0 2 1 * *'  # 1st of every month, 02:00 UTC
+  workflow_dispatch:      # allow manual "Run workflow" button
 
 permissions:
-  contents: write              # IMPORTANT: lets Actions push updated files
+  contents: write          # ✅ Add this section right here
 
 jobs:
   update-data:
