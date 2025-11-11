@@ -1,5 +1,7 @@
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/darcyedmiston/aus-macro-asx/update_data.yml?label=Auto%20Data%20Update&logo=github)
-[![Render Status](https://img.shields.io/badge/Render-Live%20Dashboard-brightgreen?logo=render)](https://aus-macro-asx.onrender.com)ASX Macro Dashboard - Ray Dalio Style Pattern Analysis
+[![Render Status](https://img.shields.io/badge/Render-Live%20Dashboard-brightgreen?logo=render)](https://aus-macro-asx.onrender.com)
+
+# ASX Macro Dashboard - Ray Dalio Style Pattern AnalysisASX Macro Dashboard - Ray Dalio Style Pattern Analysis
 An educational macro analysis dashboard inspired by Ray Dalio's principles: "Everything happens over and over again." This tool helps understand where we are in the economic cycle by comparing current conditions to historical patterns.
 🎯 What This Dashboard Does
 
