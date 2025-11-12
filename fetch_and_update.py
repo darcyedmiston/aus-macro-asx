@@ -21,6 +21,7 @@ import requests
 from io import StringIO
 import yfinance as yf
 import logging
+import os
 
 # Setup logging
 logging.basicConfig(
